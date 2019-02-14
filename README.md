@@ -23,7 +23,7 @@ Aplikacja powinna składać się z dwóch części:
         o zna scrum – checkbox
     Po poprawnej rejestracji na podany mail wysyłana jest wiadomość powitalna (treść dowolna, grunt żeby w treści były zawarte wartości wszystkich wpisanych pól).
 
-    b) Administracyjnej (/admin), na stronie wejściowej lista zarejestrowanych kont + opcje ich zarządzania (edycja, usuwanie)
+b) Administracyjnej (/admin), na stronie wejściowej lista zarejestrowanych kont + opcje ich zarządzania (edycja, usuwanie)
 
 Oceniane będzie podejście do projektu bazy danych, podejścia obiektowego w kodzie oraz użycia JS na froncie. Można korzystać z frameworków PHP oraz frontendowych (np.: react).
 Dodatkowo punktowane będzie wykorzystanie dockera do stworzenia środowiska uruchomieniowego.
