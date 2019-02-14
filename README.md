@@ -57,10 +57,9 @@ Biblioteka jQuery TableEdit ma bug który powoduje że funkcja onAjax zawsze rzu
         serialize = result;
     }
 ```
-The jQuery TableEdit library has incomplete documentation, documentation states passing 3 parameters but we need to use 4. 
-I had to reverse engineer the library code to find out we need another parameter.  
+Biblioteka jQuery TableEdit ma niekompletną dokumentacje, według dokumentacji powinny być 3 parametry lecz trzeba użyć 4.
 https://markcell.github.io/jquery-tabledit/#examples  
-instead of calling:  
+
 ```
     editable: [
         ...
@@ -68,7 +67,7 @@ instead of calling:
         ...
     ]
 ```
-we call:
+Zamiast:  
 ```
     editable: [
         ...
