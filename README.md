@@ -54,7 +54,7 @@ instead of calling:
         ...
     ]
 ```
-    we call:
+we call:
 ```
     editable: [
         ...
