@@ -30,10 +30,6 @@ Dodatkowo punktowane będzie wykorzystanie dockera do stworzenia środowiska uru
 
 Kwestia układu, interakcji, walidacji i tym podobnych kwestii pozostaje po Pana/Pani stronie. Oczekiwanym przez nas efektem jest link do repozytorium kodu na jednej z opularnych platform (github, gitlab, bitbucket) wraz z całym kodem, schema do założenia bazy danych oraz plikiem readme.md w którym powinien być zawarty opis instalacji i konfiguracji aplikacji.
 
-# TODO
-dorobić plik php który generuje JSON z wszystkimi stanowiskami aby nie trzeba było modyfikować kodu w PHP oraz w JS
-Send confirmation email.
-
 
 ## Napotkane problemy
 Biblioteka jQuery TableEdit ma bug który powoduje że funkcja onAjax zawsze rzuca null, tymczasowy fix to wykomentowanie tej sekcji kodu z jquery.tabledit.js:
