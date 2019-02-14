@@ -1,3 +1,7 @@
+![Admin panel](https://i.imgur.com/s5ELMRK.png)
+![Rejestracja](https://i.imgur.com/wgRuM3X.png)
+![Instalacja](https://i.imgur.com/kTd4ixw.png)
+
 # Zadanie rekrutacyjne Wiedza i Praktyka
 W ramach pierwszego etatu rekrutacji prosimy o wykonanie mikro projektu. Polega on na napisaniu aplikacji umożliwiającej rejestrowanie różnego rodzaju użytkowników w serwisie oraz ich zarządzaniem (lista, edycja, usuwanie).
   
