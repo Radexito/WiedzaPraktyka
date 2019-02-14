@@ -1,0 +1,18 @@
+<?php
+
+    $db_ip = "localhost";
+    $db_user = "root";
+    $db_pass = "pass";
+    $db_name = "wiedzaipraktyka";
+
+    $email_adress = "emailadress@mail.pl";
+
+    class DBi {
+        public static $db;
+    }
+    DBi::$db = new mysqli($db_ip, $db_user, $db_pass, $db_name);
+
+    if (DBi::$db->connect_error) {
+        die('Connect Error (' . DBi::$db->connect_errno . ') '
+        .DBi::$db->connect_error);
+    }

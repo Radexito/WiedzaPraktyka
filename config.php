@@ -1,0 +1,1 @@
+<?php die("run install first <a href='/install.php'></a>");

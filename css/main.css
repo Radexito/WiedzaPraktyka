@@ -1,0 +1,51 @@
+.loginform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0 auto;
+  background: #F8F8F8;
+  border-radius: 26px;
+  border: 1px solid #707070;
+  text-align: center;
+  padding: 40px;
+  padding-top: 0px;
+  max-width: 450px;
+}
+
+.loginform img.logo {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.loginform .form-control {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.loginform button {
+  padding: 10px 60px;
+}
+
+.loginform .message {
+  display: none;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.loginform .message.success {
+  display: block;
+  border: 1px solid #00FF00;
+}
+
+.loginform .message.failure {
+  display: block;
+  border: 1px solid #FF0000;
+}
+
+.loginform .hidden-options {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
