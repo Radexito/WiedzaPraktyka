@@ -40,7 +40,9 @@ Kwestia układu, interakcji, walidacji i tym podobnych kwestii pozostaje po Pana
   
 
 ## Instalacja
-Wrzuć pliki do root folderu serwera, nawiguj do /install.php  
+1.) Wrzuć pliki do root folderu serwera  
+2.) Stwórz pustą baze danych  
+3.) Nawiguj do /install.php  
   
 
 ## Napotkane problemy
