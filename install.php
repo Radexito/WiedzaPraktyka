@@ -40,7 +40,7 @@
                     }
 
                     //kasujemy plik instalacyjny
-                    //unlink(__FILE__);
+                    unlink(__FILE__);
                     
                 }else{
             ?>

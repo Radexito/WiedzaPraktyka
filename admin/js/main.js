@@ -1,4 +1,4 @@
-$(document).ready(function () {
+﻿$(document).ready(function () {
   $('#sidebarCollapse').on('click', function () {
     $('#sidebar').toggleClass('active');
   });
@@ -19,7 +19,7 @@ $(document).ready(function () {
         //TODO: dorobić plik php który generuje JSON z wszystkimi stanowiskami aby nie trzeba było modyfikować kodu w PHP oraz w JS
         [6, 'Hidden Q1'],
         [7, 'Hidden Q2'],
-        [8, 'Hidden Q3', 'select', '{"1": "Tak", "0": "Nie"}']
+        [8, 'Hidden Q3', 'select', '{"Tak": "Tak", "Nie": "Nie"}']
       ]
     },
     buttons: {
