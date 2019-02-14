@@ -2,7 +2,7 @@
 
     $db_ip = "localhost";
     $db_user = "root";
-    $db_pass = "pass";
+    $db_pass = "password";
     $db_name = "wiedzaipraktyka";
 
     $email_adress = "emailadress@mail.pl";

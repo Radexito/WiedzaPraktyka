@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -19,13 +19,13 @@
             <div class="col-6 loginform">
             <img src="/img/logo.png" class="logo" alt="Wiedza i Praktyka">
             <?php
-                if(!is_null(@$_POST['dbip']) && !is_null(@$_POST['dbuser']) && !is_null(@$_POST['dbpass']) && !is_null(@$_POST['dbname'])){
+                if(!is_null(@$_POST['dbip']) && !is_null(@$_POST['dbuser']) && !is_null(@$_POST['dbname'])){
                     //instaluj
                     
                     $str=file_get_contents('config-sample.txt');
                     $str=str_replace("localhost", $_POST['dbip'],$str);
                     $str=str_replace("root", $_POST['dbuser'],$str);
-                    $str=str_replace("pass", $_POST['dbpass'],$str);
+                    $str=str_replace("password", $_POST['dbpass'],$str);
                     $str=str_replace("wiedzaipraktyka", $_POST['dbname'],$str);
                     $str=str_replace("emailadress@mail.pl", $_POST['email'],$str);
                     file_put_contents('config.php', $str);
@@ -40,7 +40,7 @@
                     }
 
                     //kasujemy plik instalacyjny
-                    unlink(__FILE__);
+                    //unlink(__FILE__);
                     
                 }else{
             ?>
